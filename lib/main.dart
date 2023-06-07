@@ -43,6 +43,35 @@ class MyApp extends StatelessWidget {
             )
           ]),
         ),
+
+
+
+        bottomNavigationBar: BottomNavigationBar(
+          backgroundColor: Colors.purple,
+          currentIndex: 0,
+          items: [
+            BottomNavigationBarItem(icon: Icon(Icons.home),label: "Home"),
+            BottomNavigationBarItem(icon: Icon(Icons.search),label: "Search"),
+            BottomNavigationBarItem(icon: Icon(Icons.person),label: "Profile"),
+          ],
+          onTap: (int index){
+            if (index ==0){
+            }
+
+
+            if (index ==1){
+
+            }
+
+
+            if (index ==2){
+
+            }
+
+          },
+        ),
+
+
         drawer: Drawer(
           child: ListView(
             children: [
