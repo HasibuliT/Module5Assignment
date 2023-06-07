@@ -11,6 +11,9 @@ class Page2 extends StatelessWidget {
         backgroundColor: Colors.blue,
         centerTitle: true,
       ),
+
+
+
       body: Center(
         child: Text(
           'Page 2',
